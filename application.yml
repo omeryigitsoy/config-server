@@ -22,3 +22,5 @@ spring:
     hibernate:
       ddl-auto: create-drop
     defer-datasource-initialization: true
+  config:
+    import: optional:configserver:http://config-server:8888
